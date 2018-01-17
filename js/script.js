@@ -10,7 +10,7 @@ function RemDupl(arr1, arr2) {
     }
     for (i = 0; i < arr2.length; i++) {
         temp = arr2[i];
-        if (temp != arr2[i]) {
+        if (temp == arr2[i]) {
             arr2.splice(i, 1);
         }
     }
